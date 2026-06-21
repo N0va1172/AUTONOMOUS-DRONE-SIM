@@ -1,0 +1,56 @@
+Panels:
+  - Class: rviz_common/Displays
+    Name: Displays
+Visualization Manager:
+  Class: ""
+  Displays:
+    - Class: rviz_default_plugins/Grid
+      Name: Grid
+      Reference Frame: map
+      Plane Cell Count: 20
+      Cell Size: 1
+    - Class: rviz_default_plugins/TF
+      Name: TF
+      Enabled: true
+    - Class: rviz_default_plugins/Path
+      Name: PlannedPath
+      Topic:
+        Value: /planned_path
+      Color: 0; 255; 255
+      Line Style: Lines
+      Line Width: 0.05
+      Enabled: true
+    - Class: rviz_default_plugins/MarkerArray
+      Name: PlannerMarkers
+      Topic:
+        Value: /planner_markers
+      Enabled: true
+    - Class: rviz_default_plugins/Pose
+      Name: DronePose
+      Topic:
+        Value: /mavros/local_position/pose
+        Reliability Policy: Best Effort
+        Depth: 5
+      Shape: Arrow
+      Color: 255; 25; 0
+      Enabled: true
+  Global Options:
+    Fixed Frame: map
+    Background Color: 48; 48; 48
+  Tools:
+    - Class: rviz_default_plugins/MoveCamera
+    - Class: rviz_default_plugins/Select
+  Value: true
+  Views:
+    Current:
+      Class: rviz_default_plugins/Orbit
+      Distance: 20
+      Focal Point:
+        X: 5
+        Y: 5
+        Z: 1
+      Pitch: 0.7
+      Yaw: 0.8
+Window Geometry:
+  Height: 900
+  Width: 1400

@@ -1,0 +1,188 @@
+[0.000000] (-) TimerEvent: {}
+[0.000374] (hybrid_planner) JobQueued: {'identifier': 'hybrid_planner', 'dependencies': OrderedDict()}
+[0.000443] (hybrid_planner) JobStarted: {'identifier': 'hybrid_planner'}
+[0.005987] (hybrid_planner) JobProgress: {'identifier': 'hybrid_planner', 'progress': 'cmake'}
+[0.006362] (hybrid_planner) Command: {'cmd': ['/usr/bin/cmake', '/home/nova/drone_ws/src/hybrid_planner', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/nova/drone_ws/install/hybrid_planner'], 'cwd': '/home/nova/drone_ws/build/hybrid_planner', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'nova'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/nova/px4_drone_ws/install/px4_msgs/lib:/home/nova/px4_ros2_ws/install/px4_ros_com/lib:/home/nova/px4_ros2_ws/install/px4_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/nova'), ('OLDPWD', '/home/nova/drone_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1710'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/nova/px4_drone_ws/install:/home/nova/px4_ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'nova'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nova'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/nova/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/opt/xtensa-esp-elf/bin/'), ('SESSION_MANAGER', 'local/nova-IdeaPad-Slim-5-16IAH8:@/tmp/.ICE-unix/1669,unix/nova-IdeaPad-Slim-5-16IAH8:/tmp/.ICE-unix/1669'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5e064a11_75ba_44e9_a855_a087cd168abb'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.RRVHR3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.261'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/nova/px4_drone_ws/install/hybrid_motion_planner:/home/nova/px4_drone_ws/install/px4_msgs:/home/nova/px4_ros2_ws/install/px4_ros_com:/home/nova/px4_ros2_ws/install/drone_planner:/home/nova/px4_ros2_ws/install/drone_path_planning:/home/nova/px4_ros2_ws/install/px4_msgs:/home/nova/px4_ros2_ws/install/hybrid_motion_planner:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nova/drone_ws/build/hybrid_planner'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nova/px4_drone_ws/install/hybrid_motion_planner/lib/python3.10/site-packages:/home/nova/px4_drone_ws/install/px4_msgs/local/lib/python3.10/dist-packages:/home/nova/px4_ros2_ws/install/px4_ros_com/local/lib/python3.10/dist-packages:/home/nova/px4_ros2_ws/build/drone_planner:/home/nova/px4_ros2_ws/install/drone_planner/lib/python3.10/site-packages:/home/nova/px4_ros2_ws/install/px4_msgs/local/lib/python3.10/dist-packages:/home/nova/px4_ros2_ws/build/hybrid_motion_planner:/home/nova/px4_ros2_ws/install/hybrid_motion_planner/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/nova/px4_drone_ws/install/px4_msgs:/home/nova/px4_ros2_ws/install/px4_ros_com:/home/nova/px4_ros2_ws/install/drone_path_planning:/home/nova/px4_ros2_ws/install/px4_msgs:/home/nova/px4_drone_ws/install/hybrid_motion_planner:/home/nova/px4_ros2_ws/install/drone_planner:/home/nova/px4_ros2_ws/install/hybrid_motion_planner:/opt/ros/humble')]), 'shell': False}
+[0.065610] (hybrid_planner) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099718] (-) TimerEvent: {}
+[0.108358] (hybrid_planner) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.115224] (hybrid_planner) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.173102] (hybrid_planner) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.180394] (hybrid_planner) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.181731] (hybrid_planner) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.182031] (hybrid_planner) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.185181] (hybrid_planner) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.199790] (-) TimerEvent: {}
+[0.243759] (hybrid_planner) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.251294] (hybrid_planner) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.251411] (hybrid_planner) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.252042] (hybrid_planner) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.256022] (hybrid_planner) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.300000] (-) TimerEvent: {}
+[0.400337] (-) TimerEvent: {}
+[0.500654] (-) TimerEvent: {}
+[0.500891] (hybrid_planner) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.553610] (hybrid_planner) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.575872] (hybrid_planner) StdoutLine: {'line': b'-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.600842] (-) TimerEvent: {}
+[0.604361] (hybrid_planner) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.607758] (hybrid_planner) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.614262] (hybrid_planner) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.622991] (hybrid_planner) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.634274] (hybrid_planner) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.662946] (hybrid_planner) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.665237] (hybrid_planner) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.700917] (-) TimerEvent: {}
+[0.727378] (hybrid_planner) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.749094] (hybrid_planner) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.773511] (hybrid_planner) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.780235] (hybrid_planner) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.800995] (-) TimerEvent: {}
+[0.834030] (hybrid_planner) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.834319] (hybrid_planner) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.893618] (hybrid_planner) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.894759] (hybrid_planner) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.901034] (-) TimerEvent: {}
+[0.926221] (hybrid_planner) StdoutLine: {'line': b'-- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[0.945320] (hybrid_planner) StdoutLine: {'line': b'-- Found visualization_msgs: 4.9.1 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[0.967680] (hybrid_planner) StdoutLine: {'line': b'-- Found mavros_msgs: 2.14.0 (/opt/ros/humble/share/mavros_msgs/cmake)\n'}
+[1.001149] (-) TimerEvent: {}
+[1.045633] (hybrid_planner) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.054081] (hybrid_planner) StdoutLine: {'line': b'-- Generating done\n'}
+[1.057241] (hybrid_planner) StdoutLine: {'line': b'-- Build files have been written to: /home/nova/drone_ws/build/hybrid_planner\n'}
+[1.064614] (hybrid_planner) CommandEnded: {'returncode': 0}
+[1.065199] (hybrid_planner) JobProgress: {'identifier': 'hybrid_planner', 'progress': 'build'}
+[1.065214] (hybrid_planner) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nova/drone_ws/build/hybrid_planner', '--', '-j12', '-l12'], 'cwd': '/home/nova/drone_ws/build/hybrid_planner', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'nova'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/nova/px4_drone_ws/install/px4_msgs/lib:/home/nova/px4_ros2_ws/install/px4_ros_com/lib:/home/nova/px4_ros2_ws/install/px4_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/nova'), ('OLDPWD', '/home/nova/drone_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1710'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/nova/px4_drone_ws/install:/home/nova/px4_ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'nova'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nova'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/nova/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/opt/xtensa-esp-elf/bin/'), ('SESSION_MANAGER', 'local/nova-IdeaPad-Slim-5-16IAH8:@/tmp/.ICE-unix/1669,unix/nova-IdeaPad-Slim-5-16IAH8:/tmp/.ICE-unix/1669'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5e064a11_75ba_44e9_a855_a087cd168abb'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.RRVHR3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.261'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/nova/px4_drone_ws/install/hybrid_motion_planner:/home/nova/px4_drone_ws/install/px4_msgs:/home/nova/px4_ros2_ws/install/px4_ros_com:/home/nova/px4_ros2_ws/install/drone_planner:/home/nova/px4_ros2_ws/install/drone_path_planning:/home/nova/px4_ros2_ws/install/px4_msgs:/home/nova/px4_ros2_ws/install/hybrid_motion_planner:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nova/drone_ws/build/hybrid_planner'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nova/px4_drone_ws/install/hybrid_motion_planner/lib/python3.10/site-packages:/home/nova/px4_drone_ws/install/px4_msgs/local/lib/python3.10/dist-packages:/home/nova/px4_ros2_ws/install/px4_ros_com/local/lib/python3.10/dist-packages:/home/nova/px4_ros2_ws/build/drone_planner:/home/nova/px4_ros2_ws/install/drone_planner/lib/python3.10/site-packages:/home/nova/px4_ros2_ws/install/px4_msgs/local/lib/python3.10/dist-packages:/home/nova/px4_ros2_ws/build/hybrid_motion_planner:/home/nova/px4_ros2_ws/install/hybrid_motion_planner/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/nova/px4_drone_ws/install/px4_msgs:/home/nova/px4_ros2_ws/install/px4_ros_com:/home/nova/px4_ros2_ws/install/drone_path_planning:/home/nova/px4_ros2_ws/install/px4_msgs:/home/nova/px4_drone_ws/install/hybrid_motion_planner:/home/nova/px4_ros2_ws/install/drone_planner:/home/nova/px4_ros2_ws/install/hybrid_motion_planner:/opt/ros/humble')]), 'shell': False}
+[1.101296] (-) TimerEvent: {}
+[1.102061] (hybrid_planner) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/rrt_prm_astar.dir/src/rrt_prm_astar.cpp.o\x1b[0m\n'}
+[1.102157] (hybrid_planner) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/drone_commander.dir/src/drone_commander.cpp.o\x1b[0m\n'}
+[1.201384] (-) TimerEvent: {}
+[1.301611] (-) TimerEvent: {}
+[1.401867] (-) TimerEvent: {}
+[1.502139] (-) TimerEvent: {}
+[1.602351] (-) TimerEvent: {}
+[1.659499] (hybrid_planner) StdoutLine: {'line': b'[ 37%] \x1b[32m\x1b[1mLinking CXX static library librrt_prm_astar.a\x1b[0m\n'}
+[1.702444] (-) TimerEvent: {}
+[1.713847] (hybrid_planner) StdoutLine: {'line': b'[ 37%] Built target rrt_prm_astar\n'}
+[1.730000] (hybrid_planner) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/planner_node.dir/src/planner_node.cpp.o\x1b[0m\n'}
+[1.731582] (hybrid_planner) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/standalone_test.dir/src/standalone_test.cpp.o\x1b[0m\n'}
+[1.802543] (-) TimerEvent: {}
+[1.902816] (-) TimerEvent: {}
+[2.003093] (-) TimerEvent: {}
+[2.067274] (hybrid_planner) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable standalone_test\x1b[0m\n'}
+[2.103273] (-) TimerEvent: {}
+[2.135794] (hybrid_planner) StdoutLine: {'line': b'[ 75%] Built target standalone_test\n'}
+[2.203472] (-) TimerEvent: {}
+[2.303788] (-) TimerEvent: {}
+[2.404073] (-) TimerEvent: {}
+[2.504419] (-) TimerEvent: {}
+[2.604743] (-) TimerEvent: {}
+[2.705085] (-) TimerEvent: {}
+[2.805376] (-) TimerEvent: {}
+[2.905625] (-) TimerEvent: {}
+[3.005886] (-) TimerEvent: {}
+[3.090452] (hybrid_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nova/drone_ws/src/hybrid_planner/src/planner_node.cpp:20:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredefinition of \xe2\x80\x98\x1b[01m\x1b[Kclass hybrid_planner::PlannerNode\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.090632] (hybrid_planner) StderrLine: {'line': b'   20 | class \x1b[01;31m\x1b[KPlannerNode\x1b[m\x1b[K : public rclcpp::Node\n'}
+[3.090695] (hybrid_planner) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.090752] (hybrid_planner) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/nova/drone_ws/src/hybrid_planner/src/planner_node.cpp:13\x1b[m\x1b[K:\n'}
+[3.090808] (hybrid_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nova/drone_ws/src/hybrid_planner/include/hybrid_planner/rrt_prm_astar.hpp:33:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprevious definition of \xe2\x80\x98\x1b[01m\x1b[Kclass hybrid_planner::PlannerNode\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.090863] (hybrid_planner) StderrLine: {'line': b'   33 | struct \x1b[01;36m\x1b[KPlannerNode\x1b[m\x1b[K\n'}
+[3.090916] (hybrid_planner) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.092482] (hybrid_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nova/drone_ws/src/hybrid_planner/src/planner_node.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.092631] (hybrid_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nova/drone_ws/src/hybrid_planner/src/planner_node.cpp:225:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kspin(std::shared_ptr<hybrid_planner::PlannerNode>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.092692] (hybrid_planner) StderrLine: {'line': b'  225 |   \x1b[01;31m\x1b[Krclcpp::spin(std::make_shared<hybrid_planner::PlannerNode>())\x1b[m\x1b[K;\n'}
+[3.092748] (hybrid_planner) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.092802] (hybrid_planner) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[3.092856] (hybrid_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nova/drone_ws/src/hybrid_planner/src/planner_node.cpp:8\x1b[m\x1b[K:\n'}
+[3.092919] (hybrid_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:45:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::spin(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.092976] (hybrid_planner) StderrLine: {'line': b'   45 | \x1b[01;36m\x1b[Kspin\x1b[m\x1b[K(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr node_ptr);\n'}
+[3.093028] (hybrid_planner) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.093079] (hybrid_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:45:60:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kshared_ptr<\x1b[01;32m\x1b[Khybrid_planner::PlannerNode\x1b[m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kshared_ptr<\x1b[01;32m\x1b[Krclcpp::node_interfaces::NodeBaseInterface\x1b[m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.093135] (hybrid_planner) StderrLine: {'line': b'   45 | spin(\x1b[01;36m\x1b[Krclcpp::node_interfaces::NodeBaseInterface::SharedPtr node_ptr\x1b[m\x1b[K);\n'}
+[3.093187] (hybrid_planner) StderrLine: {'line': b'      |      \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[3.093237] (hybrid_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:49:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::spin(rclcpp::Node::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.093289] (hybrid_planner) StderrLine: {'line': b'   49 | \x1b[01;36m\x1b[Kspin\x1b[m\x1b[K(rclcpp::Node::SharedPtr node_ptr);\n'}
+[3.093341] (hybrid_planner) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.093394] (hybrid_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:49:30:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kshared_ptr<\x1b[01;32m\x1b[Khybrid_planner::PlannerNode\x1b[m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kshared_ptr<\x1b[01;32m\x1b[Krclcpp::Node\x1b[m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.093459] (hybrid_planner) StderrLine: {'line': b'   49 | spin(\x1b[01;36m\x1b[Krclcpp::Node::SharedPtr node_ptr\x1b[m\x1b[K);\n'}
+[3.093510] (hybrid_planner) StderrLine: {'line': b'      |      \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[3.106006] (-) TimerEvent: {}
+[3.206245] (-) TimerEvent: {}
+[3.306515] (-) TimerEvent: {}
+[3.345083] (hybrid_planner) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/planner_node.dir/build.make:76: CMakeFiles/planner_node.dir/src/planner_node.cpp.o] Error 1\n'}
+[3.345351] (hybrid_planner) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:169: CMakeFiles/planner_node.dir/all] Error 2\n'}
+[3.345529] (hybrid_planner) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[3.406710] (-) TimerEvent: {}
+[3.507013] (-) TimerEvent: {}
+[3.607303] (-) TimerEvent: {}
+[3.707674] (-) TimerEvent: {}
+[3.807943] (-) TimerEvent: {}
+[3.908230] (-) TimerEvent: {}
+[4.008521] (-) TimerEvent: {}
+[4.108832] (-) TimerEvent: {}
+[4.209109] (-) TimerEvent: {}
+[4.309398] (-) TimerEvent: {}
+[4.409879] (-) TimerEvent: {}
+[4.510168] (-) TimerEvent: {}
+[4.610464] (-) TimerEvent: {}
+[4.710696] (-) TimerEvent: {}
+[4.810990] (-) TimerEvent: {}
+[4.911250] (-) TimerEvent: {}
+[5.011544] (-) TimerEvent: {}
+[5.111853] (-) TimerEvent: {}
+[5.212090] (-) TimerEvent: {}
+[5.312384] (-) TimerEvent: {}
+[5.412671] (-) TimerEvent: {}
+[5.512926] (-) TimerEvent: {}
+[5.613214] (-) TimerEvent: {}
+[5.713456] (-) TimerEvent: {}
+[5.813771] (-) TimerEvent: {}
+[5.914084] (-) TimerEvent: {}
+[6.014312] (-) TimerEvent: {}
+[6.114542] (-) TimerEvent: {}
+[6.214775] (-) TimerEvent: {}
+[6.315039] (-) TimerEvent: {}
+[6.415325] (-) TimerEvent: {}
+[6.515625] (-) TimerEvent: {}
+[6.615951] (-) TimerEvent: {}
+[6.716239] (-) TimerEvent: {}
+[6.816587] (-) TimerEvent: {}
+[6.916895] (-) TimerEvent: {}
+[7.017201] (-) TimerEvent: {}
+[7.117466] (-) TimerEvent: {}
+[7.217729] (-) TimerEvent: {}
+[7.317938] (-) TimerEvent: {}
+[7.418248] (-) TimerEvent: {}
+[7.518483] (-) TimerEvent: {}
+[7.618795] (-) TimerEvent: {}
+[7.719074] (-) TimerEvent: {}
+[7.819421] (-) TimerEvent: {}
+[7.919658] (-) TimerEvent: {}
+[8.019913] (-) TimerEvent: {}
+[8.120255] (-) TimerEvent: {}
+[8.220507] (-) TimerEvent: {}
+[8.320757] (-) TimerEvent: {}
+[8.421016] (-) TimerEvent: {}
+[8.521310] (-) TimerEvent: {}
+[8.621660] (-) TimerEvent: {}
+[8.721906] (-) TimerEvent: {}
+[8.822231] (-) TimerEvent: {}
+[8.922566] (-) TimerEvent: {}
+[9.022901] (-) TimerEvent: {}
+[9.123162] (-) TimerEvent: {}
+[9.223418] (-) TimerEvent: {}
+[9.323740] (-) TimerEvent: {}
+[9.423997] (-) TimerEvent: {}
+[9.524316] (-) TimerEvent: {}
+[9.621024] (hybrid_planner) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking CXX executable drone_commander\x1b[0m\n'}
+[9.624481] (-) TimerEvent: {}
+[9.724675] (-) TimerEvent: {}
+[9.824999] (-) TimerEvent: {}
+[9.925330] (-) TimerEvent: {}
+[10.025699] (-) TimerEvent: {}
+[10.126104] (-) TimerEvent: {}
+[10.147273] (hybrid_planner) StdoutLine: {'line': b'[ 87%] Built target drone_commander\n'}
+[10.148169] (hybrid_planner) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[10.149814] (hybrid_planner) CommandEnded: {'returncode': 2}
+[10.159708] (hybrid_planner) JobEnded: {'identifier': 'hybrid_planner', 'rc': 2}
+[10.170214] (-) EventReactorShutdown: {}

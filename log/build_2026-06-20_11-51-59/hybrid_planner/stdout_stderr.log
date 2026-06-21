@@ -1,0 +1,33 @@
+[ 25%] Built target rrt_prm_astar
+[ 50%] Built target drone_commander
+[35m[1mConsolidate compiler generated dependencies of target planner_node[0m
+[ 75%] Built target standalone_test
+[ 87%] [32mBuilding CXX object CMakeFiles/planner_node.dir/src/planner_node.cpp.o[0m
+[01m[K/home/nova/drone_ws/src/hybrid_planner/src/planner_node.cpp:20:7:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kclass hybrid_planner::PlannerNode[m[K’
+   20 | class [01;31m[KPlannerNode[m[K : public rclcpp::Node
+      |       [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/home/nova/drone_ws/src/hybrid_planner/src/planner_node.cpp:13[m[K:
+[01m[K/home/nova/drone_ws/src/hybrid_planner/include/hybrid_planner/rrt_prm_astar.hpp:33:8:[m[K [01;36m[Knote: [m[Kprevious definition of ‘[01m[Kclass hybrid_planner::PlannerNode[m[K’
+   33 | struct [01;36m[KPlannerNode[m[K
+      |        [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/nova/drone_ws/src/hybrid_planner/src/planner_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/nova/drone_ws/src/hybrid_planner/src/planner_node.cpp:225:15:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kspin(std::shared_ptr<hybrid_planner::PlannerNode>)[m[K’
+  225 |   [01;31m[Krclcpp::spin(std::make_shared<hybrid_planner::PlannerNode>())[m[K;
+      |   [01;31m[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/nova/drone_ws/src/hybrid_planner/src/planner_node.cpp:8[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:45:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::spin(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr)[m[K’
+   45 | [01;36m[Kspin[m[K(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr node_ptr);
+      | [01;36m[K^~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:45:60:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kshared_ptr<[01;32m[Khybrid_planner::PlannerNode[m[K>[m[K’ to ‘[01m[Kshared_ptr<[01;32m[Krclcpp::node_interfaces::NodeBaseInterface[m[K>[m[K’
+   45 | spin([01;36m[Krclcpp::node_interfaces::NodeBaseInterface::SharedPtr node_ptr[m[K);
+      |      [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:49:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::spin(rclcpp::Node::SharedPtr)[m[K’
+   49 | [01;36m[Kspin[m[K(rclcpp::Node::SharedPtr node_ptr);
+      | [01;36m[K^~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:49:30:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kshared_ptr<[01;32m[Khybrid_planner::PlannerNode[m[K>[m[K’ to ‘[01m[Kshared_ptr<[01;32m[Krclcpp::Node[m[K>[m[K’
+   49 | spin([01;36m[Krclcpp::Node::SharedPtr node_ptr[m[K);
+      |      [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/planner_node.dir/build.make:76: CMakeFiles/planner_node.dir/src/planner_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:169: CMakeFiles/planner_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

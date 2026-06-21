@@ -1,0 +1,33 @@
+[0.007s] Invoking command in '/home/nova/drone_ws/build/hybrid_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nova/px4_drone_ws/install/hybrid_motion_planner:/home/nova/px4_ros2_ws/install/drone_planner:/home/nova/px4_ros2_ws/install/hybrid_motion_planner:/opt/ros/humble /usr/bin/cmake --build /home/nova/drone_ws/build/hybrid_planner -- -j12 -l12
+[0.052s] [ 25%] Built target rrt_prm_astar
+[0.055s] [ 50%] Built target drone_commander
+[0.062s] [35m[1mConsolidate compiler generated dependencies of target planner_node[0m
+[0.068s] [ 75%] Built target standalone_test
+[0.074s] [100%] Built target planner_node
+[0.083s] Invoked command in '/home/nova/drone_ws/build/hybrid_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nova/px4_drone_ws/install/hybrid_motion_planner:/home/nova/px4_ros2_ws/install/drone_planner:/home/nova/px4_ros2_ws/install/hybrid_motion_planner:/opt/ros/humble /usr/bin/cmake --build /home/nova/drone_ws/build/hybrid_planner -- -j12 -l12
+[0.090s] Invoking command in '/home/nova/drone_ws/build/hybrid_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nova/px4_drone_ws/install/hybrid_motion_planner:/home/nova/px4_ros2_ws/install/drone_planner:/home/nova/px4_ros2_ws/install/hybrid_motion_planner:/opt/ros/humble /usr/bin/cmake --install /home/nova/drone_ws/build/hybrid_planner
+[0.096s] -- Install configuration: ""
+[0.097s] -- Execute custom install script
+[0.097s] -- Up-to-date symlink: /home/nova/drone_ws/install/hybrid_planner/lib/hybrid_planner/planner_node
+[0.097s] -- Up-to-date symlink: /home/nova/drone_ws/install/hybrid_planner/lib/hybrid_planner/drone_commander
+[0.097s] -- Up-to-date symlink: /home/nova/drone_ws/install/hybrid_planner/lib/hybrid_planner/standalone_test
+[0.097s] -- Up-to-date symlink: /home/nova/drone_ws/install/hybrid_planner/lib/librrt_prm_astar.a
+[0.097s] -- Up-to-date symlink: /home/nova/drone_ws/install/hybrid_planner/share/hybrid_planner/launch/sim_launch.py
+[0.097s] -- Up-to-date symlink: /home/nova/drone_ws/install/hybrid_planner/share/hybrid_planner/rviz/planner_view.rviz
+[0.097s] -- Up-to-date symlink: /home/nova/drone_ws/install/hybrid_planner/share/hybrid_planner/worlds/obstacle_world.sdf
+[0.097s] -- Up-to-date symlink: /home/nova/drone_ws/install/hybrid_planner/share/ament_index/resource_index/package_run_dependencies/hybrid_planner
+[0.097s] -- Up-to-date symlink: /home/nova/drone_ws/install/hybrid_planner/share/ament_index/resource_index/parent_prefix_path/hybrid_planner
+[0.097s] -- Up-to-date symlink: /home/nova/drone_ws/install/hybrid_planner/share/hybrid_planner/environment/ament_prefix_path.sh
+[0.098s] -- Up-to-date symlink: /home/nova/drone_ws/install/hybrid_planner/share/hybrid_planner/environment/ament_prefix_path.dsv
+[0.098s] -- Up-to-date symlink: /home/nova/drone_ws/install/hybrid_planner/share/hybrid_planner/environment/path.sh
+[0.098s] -- Up-to-date symlink: /home/nova/drone_ws/install/hybrid_planner/share/hybrid_planner/environment/path.dsv
+[0.098s] -- Up-to-date symlink: /home/nova/drone_ws/install/hybrid_planner/share/hybrid_planner/local_setup.bash
+[0.098s] -- Up-to-date symlink: /home/nova/drone_ws/install/hybrid_planner/share/hybrid_planner/local_setup.sh
+[0.098s] -- Up-to-date symlink: /home/nova/drone_ws/install/hybrid_planner/share/hybrid_planner/local_setup.zsh
+[0.098s] -- Up-to-date symlink: /home/nova/drone_ws/install/hybrid_planner/share/hybrid_planner/local_setup.dsv
+[0.098s] -- Symlinking: /home/nova/drone_ws/install/hybrid_planner/share/hybrid_planner/package.dsv
+[0.106s] -- Up-to-date symlink: /home/nova/drone_ws/install/hybrid_planner/share/ament_index/resource_index/packages/hybrid_planner
+[0.106s] -- Up-to-date symlink: /home/nova/drone_ws/install/hybrid_planner/share/hybrid_planner/cmake/hybrid_plannerConfig.cmake
+[0.106s] -- Up-to-date symlink: /home/nova/drone_ws/install/hybrid_planner/share/hybrid_planner/cmake/hybrid_plannerConfig-version.cmake
+[0.106s] -- Up-to-date symlink: /home/nova/drone_ws/install/hybrid_planner/share/hybrid_planner/package.xml
+[0.107s] Invoked command in '/home/nova/drone_ws/build/hybrid_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nova/px4_drone_ws/install/hybrid_motion_planner:/home/nova/px4_ros2_ws/install/drone_planner:/home/nova/px4_ros2_ws/install/hybrid_motion_planner:/opt/ros/humble /usr/bin/cmake --install /home/nova/drone_ws/build/hybrid_planner

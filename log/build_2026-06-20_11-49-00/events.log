@@ -1,0 +1,60 @@
+[0.000000] (-) TimerEvent: {}
+[0.000140] (hybrid_planner) JobQueued: {'identifier': 'hybrid_planner', 'dependencies': OrderedDict()}
+[0.000434] (hybrid_planner) JobStarted: {'identifier': 'hybrid_planner'}
+[0.005289] (hybrid_planner) JobProgress: {'identifier': 'hybrid_planner', 'progress': 'cmake'}
+[0.005871] (hybrid_planner) JobProgress: {'identifier': 'hybrid_planner', 'progress': 'build'}
+[0.006492] (hybrid_planner) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nova/drone_ws/build/hybrid_planner', '--', '-j12', '-l12'], 'cwd': '/home/nova/drone_ws/build/hybrid_planner', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'nova'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/home/nova/px4_drone_ws/install/px4_msgs/lib:/home/nova/px4_ros2_ws/install/px4_ros_com/lib:/home/nova/px4_ros2_ws/install/px4_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/nova'), ('OLDPWD', '/home/nova/drone_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1710'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/nova/drone_ws/install:/home/nova/px4_drone_ws/install:/home/nova/px4_ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'nova'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nova'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/nova/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/opt/xtensa-esp-elf/bin/'), ('SESSION_MANAGER', 'local/nova-IdeaPad-Slim-5-16IAH8:@/tmp/.ICE-unix/1669,unix/nova-IdeaPad-Slim-5-16IAH8:/tmp/.ICE-unix/1669'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5e064a11_75ba_44e9_a855_a087cd168abb'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.RRVHR3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.261'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/nova/px4_drone_ws/install/hybrid_motion_planner:/home/nova/px4_drone_ws/install/px4_msgs:/home/nova/px4_ros2_ws/install/px4_ros_com:/home/nova/px4_ros2_ws/install/drone_planner:/home/nova/px4_ros2_ws/install/drone_path_planning:/home/nova/px4_ros2_ws/install/px4_msgs:/home/nova/px4_ros2_ws/install/hybrid_motion_planner:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nova/drone_ws/build/hybrid_planner'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nova/px4_drone_ws/install/hybrid_motion_planner/lib/python3.10/site-packages:/home/nova/px4_drone_ws/install/px4_msgs/local/lib/python3.10/dist-packages:/home/nova/px4_ros2_ws/install/px4_ros_com/local/lib/python3.10/dist-packages:/home/nova/px4_ros2_ws/build/drone_planner:/home/nova/px4_ros2_ws/install/drone_planner/lib/python3.10/site-packages:/home/nova/px4_ros2_ws/install/px4_msgs/local/lib/python3.10/dist-packages:/home/nova/px4_ros2_ws/build/hybrid_motion_planner:/home/nova/px4_ros2_ws/install/hybrid_motion_planner/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/nova/px4_drone_ws/install/px4_msgs:/home/nova/px4_ros2_ws/install/px4_ros_com:/home/nova/px4_ros2_ws/install/drone_path_planning:/home/nova/px4_ros2_ws/install/px4_msgs:/home/nova/px4_drone_ws/install/hybrid_motion_planner:/home/nova/px4_ros2_ws/install/drone_planner:/home/nova/px4_ros2_ws/install/hybrid_motion_planner:/opt/ros/humble')]), 'shell': False}
+[0.039783] (hybrid_planner) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target rrt_prm_astar\n'}
+[0.041604] (hybrid_planner) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target drone_commander\n'}
+[0.049628] (hybrid_planner) StdoutLine: {'line': b'[ 25%] Built target rrt_prm_astar\n'}
+[0.053796] (hybrid_planner) StdoutLine: {'line': b'[ 50%] Built target drone_commander\n'}
+[0.056671] (hybrid_planner) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target standalone_test\n'}
+[0.058064] (hybrid_planner) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target planner_node\n'}
+[0.065756] (hybrid_planner) StdoutLine: {'line': b'[ 75%] Built target standalone_test\n'}
+[0.069031] (hybrid_planner) StdoutLine: {'line': b'[ 87%] Building CXX object CMakeFiles/planner_node.dir/src/planner_node.cpp.o\n'}
+[0.099895] (-) TimerEvent: {}
+[0.200246] (-) TimerEvent: {}
+[0.300569] (-) TimerEvent: {}
+[0.400881] (-) TimerEvent: {}
+[0.501196] (-) TimerEvent: {}
+[0.601506] (-) TimerEvent: {}
+[0.701812] (-) TimerEvent: {}
+[0.802119] (-) TimerEvent: {}
+[0.902465] (-) TimerEvent: {}
+[1.002804] (-) TimerEvent: {}
+[1.103103] (-) TimerEvent: {}
+[1.203409] (-) TimerEvent: {}
+[1.303735] (-) TimerEvent: {}
+[1.338070] (hybrid_planner) StderrLine: {'line': b'/home/nova/drone_ws/src/hybrid_planner/src/planner_node.cpp:20:7: error: redefinition of \xe2\x80\x98class hybrid_planner::PlannerNode\xe2\x80\x99\n'}
+[1.338248] (hybrid_planner) StderrLine: {'line': b'   20 | class PlannerNode : public rclcpp::Node\n'}
+[1.338311] (hybrid_planner) StderrLine: {'line': b'      |       ^~~~~~~~~~~\n'}
+[1.338388] (hybrid_planner) StderrLine: {'line': b'In file included from /home/nova/drone_ws/src/hybrid_planner/src/planner_node.cpp:13:\n'}
+[1.338635] (hybrid_planner) StderrLine: {'line': b'/home/nova/drone_ws/src/hybrid_planner/include/hybrid_planner/rrt_prm_astar.hpp:33:8: note: previous definition of \xe2\x80\x98class hybrid_planner::PlannerNode\xe2\x80\x99\n'}
+[1.338711] (hybrid_planner) StderrLine: {'line': b'   33 | struct PlannerNode\n'}
+[1.338740] (hybrid_planner) StderrLine: {'line': b'      |        ^~~~~~~~~~~\n'}
+[1.339998] (hybrid_planner) StderrLine: {'line': b'/home/nova/drone_ws/src/hybrid_planner/src/planner_node.cpp: In function \xe2\x80\x98int main(int, char**)\xe2\x80\x99:\n'}
+[1.340080] (hybrid_planner) StderrLine: {'line': b'/home/nova/drone_ws/src/hybrid_planner/src/planner_node.cpp:225:15: error: no matching function for call to \xe2\x80\x98spin(std::shared_ptr<hybrid_planner::PlannerNode>)\xe2\x80\x99\n'}
+[1.340109] (hybrid_planner) StderrLine: {'line': b'  225 |   rclcpp::spin(std::make_shared<hybrid_planner::PlannerNode>());\n'}
+[1.340136] (hybrid_planner) StderrLine: {'line': b'      |   ~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n'}
+[1.340160] (hybrid_planner) StderrLine: {'line': b'In file included from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155,\n'}
+[1.340183] (hybrid_planner) StderrLine: {'line': b'                 from /home/nova/drone_ws/src/hybrid_planner/src/planner_node.cpp:8:\n'}
+[1.340204] (hybrid_planner) StderrLine: {'line': b'/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:45:1: note: candidate: \xe2\x80\x98void rclcpp::spin(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr)\xe2\x80\x99\n'}
+[1.340226] (hybrid_planner) StderrLine: {'line': b'   45 | spin(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr node_ptr);\n'}
+[1.340248] (hybrid_planner) StderrLine: {'line': b'      | ^~~~\n'}
+[1.340269] (hybrid_planner) StderrLine: {'line': b'/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:45:60: note:   no known conversion for argument 1 from \xe2\x80\x98shared_ptr<hybrid_planner::PlannerNode>\xe2\x80\x99 to \xe2\x80\x98shared_ptr<rclcpp::node_interfaces::NodeBaseInterface>\xe2\x80\x99\n'}
+[1.340292] (hybrid_planner) StderrLine: {'line': b'   45 | spin(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr node_ptr);\n'}
+[1.340314] (hybrid_planner) StderrLine: {'line': b'      |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~\n'}
+[1.340344] (hybrid_planner) StderrLine: {'line': b'/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:49:1: note: candidate: \xe2\x80\x98void rclcpp::spin(rclcpp::Node::SharedPtr)\xe2\x80\x99\n'}
+[1.340367] (hybrid_planner) StderrLine: {'line': b'   49 | spin(rclcpp::Node::SharedPtr node_ptr);\n'}
+[1.340389] (hybrid_planner) StderrLine: {'line': b'      | ^~~~\n'}
+[1.340410] (hybrid_planner) StderrLine: {'line': b'/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:49:30: note:   no known conversion for argument 1 from \xe2\x80\x98shared_ptr<hybrid_planner::PlannerNode>\xe2\x80\x99 to \xe2\x80\x98shared_ptr<rclcpp::Node>\xe2\x80\x99\n'}
+[1.340433] (hybrid_planner) StderrLine: {'line': b'   49 | spin(rclcpp::Node::SharedPtr node_ptr);\n'}
+[1.340454] (hybrid_planner) StderrLine: {'line': b'      |      ~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~\n'}
+[1.403949] (-) TimerEvent: {}
+[1.504250] (-) TimerEvent: {}
+[1.589513] (hybrid_planner) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/planner_node.dir/build.make:76: CMakeFiles/planner_node.dir/src/planner_node.cpp.o] Error 1\n'}
+[1.589631] (hybrid_planner) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:169: CMakeFiles/planner_node.dir/all] Error 2\n'}
+[1.589864] (hybrid_planner) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[1.592527] (hybrid_planner) CommandEnded: {'returncode': 2}
+[1.596719] (hybrid_planner) JobEnded: {'identifier': 'hybrid_planner', 'rc': 2}
+[1.597212] (-) EventReactorShutdown: {}

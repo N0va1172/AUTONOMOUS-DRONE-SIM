@@ -1,0 +1,80 @@
+[0.008s] Invoking command in '/home/nova/drone_ws/build/hybrid_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nova/px4_drone_ws/install/hybrid_motion_planner:/home/nova/px4_ros2_ws/install/drone_planner:/home/nova/px4_ros2_ws/install/hybrid_motion_planner:/opt/ros/humble /usr/bin/cmake /home/nova/drone_ws/src/hybrid_planner -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nova/drone_ws/install/hybrid_planner
+[0.065s] -- The C compiler identification is GNU 11.4.0
+[0.108s] -- The CXX compiler identification is GNU 11.4.0
+[0.115s] -- Detecting C compiler ABI info
+[0.173s] -- Detecting C compiler ABI info - done
+[0.180s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.181s] -- Detecting C compile features
+[0.182s] -- Detecting C compile features - done
+[0.185s] -- Detecting CXX compiler ABI info
+[0.243s] -- Detecting CXX compiler ABI info - done
+[0.251s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.251s] -- Detecting CXX compile features
+[0.252s] -- Detecting CXX compile features - done
+[0.256s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.501s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.553s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.576s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[0.604s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.607s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.614s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.623s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.634s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.663s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.665s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.727s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.749s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.773s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.780s] -- Looking for pthread.h
+[0.834s] -- Looking for pthread.h - found
+[0.834s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.893s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.894s] -- Found Threads: TRUE  
+[0.926s] -- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.945s] -- Found visualization_msgs: 4.9.1 (/opt/ros/humble/share/visualization_msgs/cmake)
+[0.967s] -- Found mavros_msgs: 2.14.0 (/opt/ros/humble/share/mavros_msgs/cmake)
+[1.045s] -- Configuring done
+[1.054s] -- Generating done
+[1.057s] -- Build files have been written to: /home/nova/drone_ws/build/hybrid_planner
+[1.065s] Invoked command in '/home/nova/drone_ws/build/hybrid_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nova/px4_drone_ws/install/hybrid_motion_planner:/home/nova/px4_ros2_ws/install/drone_planner:/home/nova/px4_ros2_ws/install/hybrid_motion_planner:/opt/ros/humble /usr/bin/cmake /home/nova/drone_ws/src/hybrid_planner -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nova/drone_ws/install/hybrid_planner
+[1.065s] Invoking command in '/home/nova/drone_ws/build/hybrid_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nova/px4_drone_ws/install/hybrid_motion_planner:/home/nova/px4_ros2_ws/install/drone_planner:/home/nova/px4_ros2_ws/install/hybrid_motion_planner:/opt/ros/humble /usr/bin/cmake --build /home/nova/drone_ws/build/hybrid_planner -- -j12 -l12
+[1.102s] [ 12%] [32mBuilding CXX object CMakeFiles/rrt_prm_astar.dir/src/rrt_prm_astar.cpp.o[0m
+[1.102s] [ 25%] [32mBuilding CXX object CMakeFiles/drone_commander.dir/src/drone_commander.cpp.o[0m
+[1.659s] [ 37%] [32m[1mLinking CXX static library librrt_prm_astar.a[0m
+[1.713s] [ 37%] Built target rrt_prm_astar
+[1.730s] [ 50%] [32mBuilding CXX object CMakeFiles/planner_node.dir/src/planner_node.cpp.o[0m
+[1.731s] [ 62%] [32mBuilding CXX object CMakeFiles/standalone_test.dir/src/standalone_test.cpp.o[0m
+[2.067s] [ 75%] [32m[1mLinking CXX executable standalone_test[0m
+[2.135s] [ 75%] Built target standalone_test
+[3.090s] [01m[K/home/nova/drone_ws/src/hybrid_planner/src/planner_node.cpp:20:7:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kclass hybrid_planner::PlannerNode[m[K’
+[3.090s]    20 | class [01;31m[KPlannerNode[m[K : public rclcpp::Node
+[3.090s]       |       [01;31m[K^~~~~~~~~~~[m[K
+[3.090s] In file included from [01m[K/home/nova/drone_ws/src/hybrid_planner/src/planner_node.cpp:13[m[K:
+[3.090s] [01m[K/home/nova/drone_ws/src/hybrid_planner/include/hybrid_planner/rrt_prm_astar.hpp:33:8:[m[K [01;36m[Knote: [m[Kprevious definition of ‘[01m[Kclass hybrid_planner::PlannerNode[m[K’
+[3.090s]    33 | struct [01;36m[KPlannerNode[m[K
+[3.090s]       |        [01;36m[K^~~~~~~~~~~[m[K
+[3.092s] [01m[K/home/nova/drone_ws/src/hybrid_planner/src/planner_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[3.092s] [01m[K/home/nova/drone_ws/src/hybrid_planner/src/planner_node.cpp:225:15:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kspin(std::shared_ptr<hybrid_planner::PlannerNode>)[m[K’
+[3.092s]   225 |   [01;31m[Krclcpp::spin(std::make_shared<hybrid_planner::PlannerNode>())[m[K;
+[3.092s]       |   [01;31m[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.092s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.092s]                  from [01m[K/home/nova/drone_ws/src/hybrid_planner/src/planner_node.cpp:8[m[K:
+[3.093s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:45:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::spin(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr)[m[K’
+[3.093s]    45 | [01;36m[Kspin[m[K(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr node_ptr);
+[3.093s]       | [01;36m[K^~~~[m[K
+[3.093s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:45:60:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kshared_ptr<[01;32m[Khybrid_planner::PlannerNode[m[K>[m[K’ to ‘[01m[Kshared_ptr<[01;32m[Krclcpp::node_interfaces::NodeBaseInterface[m[K>[m[K’
+[3.093s]    45 | spin([01;36m[Krclcpp::node_interfaces::NodeBaseInterface::SharedPtr node_ptr[m[K);
+[3.093s]       |      [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[3.093s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:49:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::spin(rclcpp::Node::SharedPtr)[m[K’
+[3.093s]    49 | [01;36m[Kspin[m[K(rclcpp::Node::SharedPtr node_ptr);
+[3.093s]       | [01;36m[K^~~~[m[K
+[3.093s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:49:30:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kshared_ptr<[01;32m[Khybrid_planner::PlannerNode[m[K>[m[K’ to ‘[01m[Kshared_ptr<[01;32m[Krclcpp::Node[m[K>[m[K’
+[3.093s]    49 | spin([01;36m[Krclcpp::Node::SharedPtr node_ptr[m[K);
+[3.093s]       |      [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[3.345s] gmake[2]: *** [CMakeFiles/planner_node.dir/build.make:76: CMakeFiles/planner_node.dir/src/planner_node.cpp.o] Error 1
+[3.345s] gmake[1]: *** [CMakeFiles/Makefile2:169: CMakeFiles/planner_node.dir/all] Error 2
+[3.345s] gmake[1]: *** Waiting for unfinished jobs....
+[9.621s] [ 87%] [32m[1mLinking CXX executable drone_commander[0m
+[10.147s] [ 87%] Built target drone_commander
+[10.148s] gmake: *** [Makefile:146: all] Error 2
+[10.149s] Invoked command in '/home/nova/drone_ws/build/hybrid_planner' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nova/px4_drone_ws/install/hybrid_motion_planner:/home/nova/px4_ros2_ws/install/drone_planner:/home/nova/px4_ros2_ws/install/hybrid_motion_planner:/opt/ros/humble /usr/bin/cmake --build /home/nova/drone_ws/build/hybrid_planner -- -j12 -l12

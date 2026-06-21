@@ -1,0 +1,38 @@
+[0.007s] Invoking command in '/home/nova/drone_ws/build/hybrid_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nova/px4_drone_ws/install/hybrid_motion_planner:/home/nova/px4_ros2_ws/install/drone_planner:/home/nova/px4_ros2_ws/install/hybrid_motion_planner:/opt/ros/humble /usr/bin/cmake --build /home/nova/drone_ws/build/hybrid_planner -- -j12 -l12
+[0.039s] Consolidate compiler generated dependencies of target rrt_prm_astar
+[0.041s] Consolidate compiler generated dependencies of target drone_commander
+[0.049s] [ 25%] Built target rrt_prm_astar
+[0.053s] [ 50%] Built target drone_commander
+[0.056s] Consolidate compiler generated dependencies of target standalone_test
+[0.058s] Consolidate compiler generated dependencies of target planner_node
+[0.065s] [ 75%] Built target standalone_test
+[0.069s] [ 87%] Building CXX object CMakeFiles/planner_node.dir/src/planner_node.cpp.o
+[1.338s] /home/nova/drone_ws/src/hybrid_planner/src/planner_node.cpp:20:7: error: redefinition of ‘class hybrid_planner::PlannerNode’
+[1.338s]    20 | class PlannerNode : public rclcpp::Node
+[1.338s]       |       ^~~~~~~~~~~
+[1.338s] In file included from /home/nova/drone_ws/src/hybrid_planner/src/planner_node.cpp:13:
+[1.338s] /home/nova/drone_ws/src/hybrid_planner/include/hybrid_planner/rrt_prm_astar.hpp:33:8: note: previous definition of ‘class hybrid_planner::PlannerNode’
+[1.338s]    33 | struct PlannerNode
+[1.338s]       |        ^~~~~~~~~~~
+[1.340s] /home/nova/drone_ws/src/hybrid_planner/src/planner_node.cpp: In function ‘int main(int, char**)’:
+[1.340s] /home/nova/drone_ws/src/hybrid_planner/src/planner_node.cpp:225:15: error: no matching function for call to ‘spin(std::shared_ptr<hybrid_planner::PlannerNode>)’
+[1.340s]   225 |   rclcpp::spin(std::make_shared<hybrid_planner::PlannerNode>());
+[1.340s]       |   ~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[1.340s] In file included from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155,
+[1.340s]                  from /home/nova/drone_ws/src/hybrid_planner/src/planner_node.cpp:8:
+[1.340s] /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:45:1: note: candidate: ‘void rclcpp::spin(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr)’
+[1.340s]    45 | spin(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr node_ptr);
+[1.340s]       | ^~~~
+[1.340s] /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:45:60: note:   no known conversion for argument 1 from ‘shared_ptr<hybrid_planner::PlannerNode>’ to ‘shared_ptr<rclcpp::node_interfaces::NodeBaseInterface>’
+[1.340s]    45 | spin(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr node_ptr);
+[1.340s]       |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~
+[1.340s] /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:49:1: note: candidate: ‘void rclcpp::spin(rclcpp::Node::SharedPtr)’
+[1.340s]    49 | spin(rclcpp::Node::SharedPtr node_ptr);
+[1.340s]       | ^~~~
+[1.340s] /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:49:30: note:   no known conversion for argument 1 from ‘shared_ptr<hybrid_planner::PlannerNode>’ to ‘shared_ptr<rclcpp::Node>’
+[1.340s]    49 | spin(rclcpp::Node::SharedPtr node_ptr);
+[1.340s]       |      ~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~
+[1.589s] gmake[2]: *** [CMakeFiles/planner_node.dir/build.make:76: CMakeFiles/planner_node.dir/src/planner_node.cpp.o] Error 1
+[1.589s] gmake[1]: *** [CMakeFiles/Makefile2:169: CMakeFiles/planner_node.dir/all] Error 2
+[1.589s] gmake: *** [Makefile:146: all] Error 2
+[1.592s] Invoked command in '/home/nova/drone_ws/build/hybrid_planner' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nova/px4_drone_ws/install/hybrid_motion_planner:/home/nova/px4_ros2_ws/install/drone_planner:/home/nova/px4_ros2_ws/install/hybrid_motion_planner:/opt/ros/humble /usr/bin/cmake --build /home/nova/drone_ws/build/hybrid_planner -- -j12 -l12

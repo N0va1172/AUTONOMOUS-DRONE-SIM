@@ -1,0 +1,8 @@
+Consolidate compiler generated dependencies of target rrt_prm_astar
+Consolidate compiler generated dependencies of target drone_commander
+[ 25%] Built target rrt_prm_astar
+[ 50%] Built target drone_commander
+Consolidate compiler generated dependencies of target standalone_test
+Consolidate compiler generated dependencies of target planner_node
+[ 75%] Built target standalone_test
+[ 87%] Building CXX object CMakeFiles/planner_node.dir/src/planner_node.cpp.o
